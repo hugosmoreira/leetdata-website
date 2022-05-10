@@ -2,9 +2,9 @@ import React from 'react'
 
 const Clients = () => {
   return (
-            <div>
-                <section>
-            <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+      <div>
+        <section className='bg-black'>
+            <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl bg-black">
                 <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
                     <div class="flex flex-col w-full max-w-lg mb-12 text-left lg:mx-auto">
                         <a class="inline-flex items-center w-full mb-4">

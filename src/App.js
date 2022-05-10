@@ -6,6 +6,7 @@ import Developers from './components/Developers';
 import Newsletter from './components/Newsletter';
 import Team from './components/Team';
 import Clients from './components/Clients';
+import Footer from './components/Footer';
 
 
 
@@ -20,6 +21,8 @@ function App() {
       <Team />
       <Clients />
       <Newsletter />
+      <Footer />
+
      
       
 

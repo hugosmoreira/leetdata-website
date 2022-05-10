@@ -14,13 +14,13 @@ const Navbar = () => {
         <div className='w-full'>
           <a href='#'><img src={Logo} /></a>
         </div>
-        <div className='hidden md:flex'>
-          <ul className='flex text-white items-center'>
-            <li className='cursor-pointer'>Platform</li>
-            <li className='cursor-pointer'>Developers</li>
-            <li className='cursor-pointer'>Community</li>
-            <li className='cursor-pointer'>About</li>
-            <button className='ml-4 cursor-pointer'>Start</button>
+        <div className='hidden md:flex flex items-center justify-between flex-wrap'>
+          <ul className='flex text-white items-center container '>
+            <li className='cursor-pointer mr-6 flex-1 '>Vision</li>
+            
+            <li className='cursor-pointer mr-3'>Community</li>
+            <li className='cursor-pointer mr-3'>About</li>
+            <button className='ml-4 cursor-pointer mr-3'>Start</button>
           </ul>
         </div>
 
